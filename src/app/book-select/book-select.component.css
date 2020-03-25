@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+h1, h2, h3{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 120px;
+    
+}
+
+#resume{
+    margin: auto;
+    width: 800px;;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+}
