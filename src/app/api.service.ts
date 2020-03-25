@@ -31,6 +31,7 @@ export class ApiService {
       info: data.info_url,
       cover: data.details['cover'],
       title: data.details['title'],
+      //no es necesario modificar este
       resume2: data.details['description'],
         //aqui va el operador condicional ? para verificar si viene algun valor null o undefined
       resume: data.details.description ? data.details.description.value:""
